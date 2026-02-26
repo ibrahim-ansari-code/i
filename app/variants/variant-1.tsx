@@ -50,7 +50,7 @@ export default function TablingosLanding() {
           onClick={() => setShowCalendly(true)}
           className="bg-gradient-to-r from-cyan-500 to-blue-500 hover:from-cyan-400 hover:to-blue-400 px-6 py-3 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-cyan-500/25"
         >
-          call
+          Schedule Demo
         </button>
       </nav>
 
@@ -78,7 +78,7 @@ export default function TablingosLanding() {
                   onClick={() => setShowCalendly(true)}
                   className="bg-gradient-to-r from-cyan-500 to-blue-500 hover:from-cyan-400 hover:to-blue-400 px-8 py-4 rounded-lg font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-xl hover:shadow-cyan-500/30"
                 >
-                  call
+                  Get Started Now
                 </button>
                 <div className="text-sm text-gray-400 flex items-center">
                   <span className="mr-2">💡</span>
@@ -221,6 +221,21 @@ export default function TablingosLanding() {
           <div className="flex flex-col md:flex-row justify-between items-center space-y-6 md:space-y-0">
             <div className={`text-2xl font-bold text-cyan-400 ${orbitron.className}`}>
               TABLINGOS
+            </div>
+            
+            <div className="flex flex-col sm:flex-row gap-4 items-center">
+              <button 
+                onClick={() => setShowCalendly(true)}
+                className="bg-gradient-to-r from-cyan-500 to-blue-500 hover:from-cyan-400 hover:to-blue-400 px-8 py-3 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-cyan-500/25"
+              >
+                Book a Call
+              </button>
+              <button 
+                onClick={() => setShowCalendly(true)}
+                className="border border-cyan-500 text-cyan-400 hover:bg-cyan-500 hover:text-white px-8 py-3 rounded-lg font-semibold transition-all duration-300"
+              >
+                Start Free Trial
+              </button>
             </div>
             
             <div className="flex space-x-6">
