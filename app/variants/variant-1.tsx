@@ -80,10 +80,17 @@ export default function TablingosLanding() {
                 >
                   Get Started Now
                 </button>
-                <div className="text-sm text-gray-400 flex items-center">
-                  <span className="mr-2">💡</span>
-                  Let your data work for you, not against you
-                </div>
+                <button 
+                  onClick={() => setShowCalendly(true)}
+                  className="border border-cyan-500 text-cyan-400 hover:bg-cyan-500 hover:text-white px-8 py-4 rounded-lg font-bold text-lg transition-all duration-300"
+                >
+                  Watch Demo
+                </button>
+              </div>
+              
+              <div className="text-sm text-gray-400 flex items-center">
+                <span className="mr-2">💡</span>
+                Let your data work for you, not against you
               </div>
             </div>
             
